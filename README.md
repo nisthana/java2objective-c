@@ -19,7 +19,7 @@ Eg = [myObject prettyPrint:name]<br>
 void javaMethodWithOneArg(String name);
 
 String name = "John";<br>
-javaMethodWithOneArg(name);<br>
+myObject.javaMethodWithOneArg(name);<br>
 
 In Objective C<br>
 -(void)methodWithOneArg:(NString *) name {<br>
@@ -32,7 +32,7 @@ void javaMethodWithNameAndAge(String name,int age);<br>
 
 String name = "John";<br>
 int age = 30;<br>
-javaMethodWithNameAndAge(name,age);<br>
+myObject.javaMethodWithNameAndAge(name,age);<br>
 
 In Objective C<br>
 -(void)methodWithName:(NString *)name andAge:(int) age {<br>
