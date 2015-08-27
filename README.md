@@ -1,3 +1,3 @@
-MyClass myObject;
+MyClass myObject;<br>
 MyClass *myObject;
 
