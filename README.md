@@ -2,7 +2,7 @@
 
 ### Object References
 MyClass myObject;<br>
-MyClass *myObject;<br>
+'MyClass *myObject;'<br>
 In Objective-C we define the reference as "pointer" to the object. Pointer is denoted by the star (*) symbol <br>
 
 ## Object Creation
