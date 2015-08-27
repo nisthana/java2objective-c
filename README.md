@@ -28,14 +28,16 @@ NString* name = @"John";
 [myObject methodWithOneArg:name]
 
 - Example of a method that takes in two arguments
-void javaMethodWithTwoArgs(String name,int Street);
+void javaMethodWithNameAndAge(String name,int age);
 
 String name = "John";
-javaMethodWithOneArg(name)
+int age = 30;
+javaMethodWithNameAndAge(name,age);
 
 In Objective C
--(void)methodWithOneArg:(NString *) name {
+-(void)methodWithName:(NString *)name andAge:(int) age {
 }
 NString* name = @"John";
-[myObject methodWithOneArg:name]
+int age = 30;
+[myObject methodWithName:name andAge:age];
 
