@@ -18,26 +18,26 @@ Eg = [myObject prettyPrint:name]<br>
 - Example of a method that takes in Single argument
 void javaMethodWithOneArg(String name);
 
-String name = "John";
-javaMethodWithOneArg(name)
+String name = "John";<br>
+javaMethodWithOneArg(name);<br>
 
-In Objective C
--(void)methodWithOneArg:(NString *) name {
-}
-NString* name = @"John";
-[myObject methodWithOneArg:name]
+In Objective C<br>
+-(void)methodWithOneArg:(NString *) name {<br>
+}<br>
+NString* name = @"John";<br>
+[myObject methodWithOneArg:name]<br>
 
 - Example of a method that takes in two arguments
-void javaMethodWithNameAndAge(String name,int age);
+void javaMethodWithNameAndAge(String name,int age);<br>
 
-String name = "John";
-int age = 30;
-javaMethodWithNameAndAge(name,age);
+String name = "John";<br>
+int age = 30;<br>
+javaMethodWithNameAndAge(name,age);<br>
 
-In Objective C
--(void)methodWithName:(NString *)name andAge:(int) age {
-}
-NString* name = @"John";
-int age = 30;
-[myObject methodWithName:name andAge:age];
+In Objective C<br>
+-(void)methodWithName:(NString *)name andAge:(int) age {<br>
+}<br>
+NString* name = @"John";<br>
+int age = 30;<br>
+[myObject methodWithName:name andAge:age];<br>
 
