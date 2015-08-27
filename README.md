@@ -12,5 +12,5 @@ MyClass *myObject = [[MyClass alloc] init];<br>
 
 ### OC Messages == Java Methods
 Format = [receiver selector arguments]<br>
-[myObject prettyPrint::name]<br>
+Eg = [myObject prettyPrint:name]<br>
 
