@@ -41,7 +41,7 @@ NString* name = @"John";<br>
 int age = 30;<br>
 [myObject methodWithName:name andAge:age];<br>
 
-- method with 3 arhs
+- method with 3 parameters
 <code>
 -(void)methodWithName:(NString *)name andAge:(int) age includingAddress(NSString*)address{<br>
 }<br>
