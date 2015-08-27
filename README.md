@@ -14,3 +14,28 @@ MyClass *myObject = [[MyClass alloc] init];<br>
 Format = [receiver selector arguments]<br>
 Eg = [myObject prettyPrint:name]<br>
 
+### Messages (methods) declaration and call
+- Example of a method that takes in Single argument
+void javaMethodWithOneArg(String name);
+
+String name = "John";
+javaMethodWithOneArg(name)
+
+In Objective C
+-(void)methodWithOneArg:(NString *) name {
+}
+NString* name = @"John";
+[myObject methodWithOneArg:name]
+
+- Example of a method that takes in two arguments
+void javaMethodWithTwoArgs(String name,int Street);
+
+String name = "John";
+javaMethodWithOneArg(name)
+
+In Objective C
+-(void)methodWithOneArg:(NString *) name {
+}
+NString* name = @"John";
+[myObject methodWithOneArg:name]
+
